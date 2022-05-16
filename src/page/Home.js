@@ -40,10 +40,10 @@ const Home = () => {
         </div>
         <div className='py-10 mt-10'>
             <h1 className='font-bold text-lg mb-9'>Connect with me:</h1>
-            <div className='grid grid-cols-3 gap-2 md:grid-cols-8'>
+            <div className='grid grid-cols-2 sm:grid-cols-3 gap-2 md:grid-cols-5'>
                 <a target="_blank" href="https://dribbble.com/Big-Saab" className='mb-4 md:mb-0'><SocialBtn text="Dribble" /></a>
                 <a target="_blank" href="https://www.behance.net/bamigboyedcd3e"><SocialBtn text="Behance" /></a>
-                <a target="_blank" href="https://twitter.com/Mrbamigboye"><SocialBtn text="Twitter" /></a>
+                <a target="_blank" href="https://twitter.com/Mrbamigboye" className='mb-4 md:mb-0'><SocialBtn text="Twitter" /></a>
                 <a target="_blank" href="https://instagram.com/Mrbamigboye"><SocialBtn text="Instagram" /></a>
                 <a target="_blank" href="https://www.linkedin.com/in/bamigboye-adedamola-isaac-8866a4136"><SocialBtn text="Linkedin" /></a>
             </div>
