@@ -50,6 +50,9 @@ const Home = () => {
             <h1 className='font-bold text-lg my-9'>Got a project?</h1>
             <a href='mailto:adedamolabamigboye@yahoo.com'><h1 className='text-[#FFC300] font-bold underline text-3xl md:text-5xl'>Lets talk <img className='w-5 md:w-7 inline ml-5' src='/images/Vectory.png' /></h1></a>
         </div>
+        <div>
+            <h1 className='text-lg text-center'>Designed by <a className='text-[#FFC300] underline' href='#'>Adedamola</a> built by <a className='text-[#FFC300] underline' href='https://twitter.com/divine_edeh1' target="_blank">Divine Edeh</a></h1>
+        </div>
     </div>
   )
 }
